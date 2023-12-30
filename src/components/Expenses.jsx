@@ -61,7 +61,7 @@ const Expenses = () => {
               <td>🍿</td>
               <td>Netflix</td>
               <td>$15.50</td>
-              <td>10th</td> 
+              <td>10th</td>
             </tr>
             <tr>
               <td>🕹️</td>
@@ -82,7 +82,19 @@ const Expenses = () => {
               <td>15th</td>
             </tr>
             <tr>
-              <td>🏋🏼‍♂️</td>
+              <td>💳</td>
+              <td>Geico</td>
+              <td>$181</td>
+              <td>17th</td>
+            </tr>
+            <tr>
+              <td>💳</td>
+              <td>Kia Financing</td>
+              <td>$534</td>
+              <td>18th</td>
+            </tr>
+            <tr>
+              <td>🏋🏼♂️</td>
               <td>Youfit (Tristan)</td>
               <td>$30</td>
               <td>16th</td>
@@ -114,8 +126,8 @@ const Expenses = () => {
             <tr>
               <td>📱</td>
               <td>Phone (Alice)</td>
-              <td>$106</td>
-              <td>Oct 24th</td> 
+              <td>$41</td>
+              <td>Oct 24th</td>
             </tr>
             <tr>
               <td>🌲</td>
@@ -156,27 +168,10 @@ const Expenses = () => {
           </table>
           <table>
             <tr>
-              <th>🌄 </th>
-              <th>Alice/Month</th>
-              <th>Tristan/Month</th>
-            </tr>
-            <tr>
-              <td>2 Weeks </td>
-              <td>$236 </td>
-              <td>$980 </td>
-            </tr>
-            <tr>
-              <td>1 Month </td>
-              <td>$472</td>
-              <td>$1,959</td>
-            </tr>
-          </table>
-          <table>
-            <tr>
               <th>💵 Checking Account for Bills 💵</th>
             </tr>
             <tr>
-              <td>$1,032</td>
+              <td>$1,116</td>
             </tr>
           </table>
         </TableContainer>
@@ -185,4 +180,4 @@ const Expenses = () => {
   )
 }
 
-export default Expenses
+              lt Expenses
