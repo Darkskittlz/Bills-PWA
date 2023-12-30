@@ -180,4 +180,4 @@ const Expenses = () => {
   )
 }
 
-              lt Expenses
+export default Expenses
