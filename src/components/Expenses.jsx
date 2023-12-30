@@ -82,18 +82,6 @@ const Expenses = () => {
               <td>15th</td>
             </tr>
             <tr>
-              <td>💳</td>
-              <td>Geico</td>
-              <td>$181</td>
-              <td>17th</td>
-            </tr>
-            <tr>
-              <td>💳</td>
-              <td>Kia Financing</td>
-              <td>$534</td>
-              <td>18th</td>
-            </tr>
-            <tr>
               <td>🏋🏼♂️</td>
               <td>Youfit (Tristan)</td>
               <td>$30</td>
@@ -101,9 +89,21 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>💳</td>
+              <td>Geico</td>
+              <td>$181</td>
+              <td>17th</td>
+            </tr>
+            <tr>
+              <td>💳</td>
               <td>Discover (Alice) </td>
               <td>$95</td>
               <td>17th</td>
+            </tr>
+            <tr>
+              <td>💳</td>
+              <td>Kia Financing</td>
+              <td>$534</td>
+              <td>18th</td>
             </tr>
             <tr>
               <td>🍏</td>
