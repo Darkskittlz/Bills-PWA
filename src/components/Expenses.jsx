@@ -18,20 +18,14 @@ const Expenses = () => {
             <tr>
               <td>🏠</td>
               <td>Rent (Tristan)</td>
-              <td>$1400</td>
+              <td>$1450</td>
               <td>1st</td>
             </tr>
             <tr>
-              <td>💊</td>
-              <td>Ambetter (Alice)</td>
-              <td>$21</td>
-              <td>1st</td>
-            </tr>
-            <tr>
-              <td>💊</td>
-              <td>Humana (Alice)</td>
-              <td>$23</td>
-              <td>6th</td>
+              <td>📶</td>
+              <td>Internet</td>
+              <td>$45</td>
+              <td>2nd</td>
             </tr>
             <tr>
               <td>💻</td>
@@ -77,18 +71,6 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>💳</td>
-              <td>SmartCredit (Tristan)</td>
-              <td>$30</td>
-              <td>15th</td>
-            </tr>
-            <tr>
-              <td>🏋🏼♂️</td>
-              <td>Youfit (Tristan)</td>
-              <td>$30</td>
-              <td>16th</td>
-            </tr>
-            <tr>
-              <td>💳</td>
               <td>Geico</td>
               <td>$181</td>
               <td>17th</td>
@@ -118,28 +100,10 @@ const Expenses = () => {
               <td>21st</td>
             </tr>
             <tr>
-              <td>💡</td>
-              <td>Electric</td>
-              <td>$88</td>
-              <td>22nd</td>
-            </tr>
-            <tr>
-              <td>📱</td>
-              <td>Phone (Alice)</td>
-              <td>$41</td>
-              <td>Oct 24th</td>
-            </tr>
-            <tr>
               <td>🌲</td>
               <td>Amazon</td>
               <td>$15</td>
               <td>25th</td>
-            </tr>
-            <tr>
-              <td>📶</td>
-              <td>Internet</td>
-              <td>$85</td>
-              <td>26th</td>
             </tr>
             <tr>
               <td>📺</td>
@@ -153,25 +117,13 @@ const Expenses = () => {
               <td>$5</td>
               <td>28th</td>
             </tr>
-            <tr>
-              <td>🥖</td>
-              <td>Groceries (Tristan)</td>
-              <td>$100</td>
-              <td>♾️</td>
-            </tr>
-            <tr>
-              <td>🥖</td>
-              <td>Groceries (Alice)</td>
-              <td>$100</td>
-              <td>♾️</td>
-            </tr>
           </table>
           <table>
             <tr>
               <th>💵 Checking Account for Bills 💵</th>
             </tr>
             <tr>
-              <td>$1,116</td>
+              <td>$2,398</td>
             </tr>
           </table>
         </TableContainer>
