@@ -107,8 +107,8 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>📺</td>
-              <td>Twitch </td>
-              <td>$5.99 (Alice)</td>
+              <td>Twitch (Alice) </td>
+              <td>$5.99 </td>
               <td>22nd</td>
             </tr>
             <tr>
