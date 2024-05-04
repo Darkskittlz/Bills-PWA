@@ -22,10 +22,16 @@ const Expenses = () => {
               <td>1st</td>
             </tr>
             <tr>
+              <td>📺</td>
+              <td>YouTube</td>
+              <td>$16</td>
+              <td>2nd</td>
+            </tr>
+            <tr>
               <td>📶</td>
               <td>Internet</td>
-              <td>$45</td>
-              <td>2nd</td>
+              <td>$70</td>
+              <td>4th</td>
             </tr>
             <tr>
               <td>💻</td>
@@ -85,7 +91,7 @@ const Expenses = () => {
               <td>💳</td>
               <td>Kia Financing</td>
               <td>$534</td>
-              <td>18th</td>
+              <td>17th</td>
             </tr>
             <tr>
               <td>🍏</td>
@@ -97,19 +103,19 @@ const Expenses = () => {
               <td>📺</td>
               <td>Crunchyroll </td>
               <td>$12</td>
-              <td>21st</td>
+              <td>22nd</td>
+            </tr>
+            <tr>
+              <td>📺</td>
+              <td>Twitch </td>
+              <td>$5.99 (Alice)</td>
+              <td>22nd</td>
             </tr>
             <tr>
               <td>🌲</td>
               <td>Amazon</td>
               <td>$15</td>
               <td>25th</td>
-            </tr>
-            <tr>
-              <td>📺</td>
-              <td>YouTube</td>
-              <td>$12</td>
-              <td>27th</td>
             </tr>
             <tr>
               <td>📺</td>
