@@ -2,7 +2,6 @@ import React, { Component, useEffect } from "react";
 // import ParticlesBg from "particles-bg";
 import { tsParticles } from "tsparticles-engine";
 import { loadStarsPreset } from "tsparticles-preset-stars";
-import DollarIMG from "/dollarIMG.png"
 
 export const ParticleBackground = () => {
   useEffect(() => {
@@ -17,10 +16,10 @@ export const ParticleBackground = () => {
           color: {
             value: "#0000000"
           },
-          image: url(),
-          position: "50% 50%",
+          image: "url('https://github.com/Darkskittlz/Bills-PWA/blob/master/public/dollarIMG.png?raw=true')",
+          position: "6% 2%",
           repeat: "no-repeat",
-          size: "20%",
+          size: "10%",
           opacity: 1
         },
         interactivity: {
