@@ -1,64 +1,53 @@
-import React, { Component, useEffect } from "react";
-// import ParticlesBg from "particles-bg";
-import { tsParticles } from "tsparticles-engine";
-import { loadStarsPreset } from "tsparticles-preset-stars";
+import React, { Component } from "react";
+import ParticlesBg from "particles-bg";
 
-export const ParticleBackground = () => {
-  useEffect(() => {
-    const loadParticles = async () => {
-      // Load the stars preset into tsParticles
-      await loadStarsPreset(tsParticles);
+export class ParticleBackground extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: "React"
+    };
+  }
 
-      // Initialize tsParticles with the 'stars' preset
-      await tsParticles.load("tsparticles", {
-        preset: "stars", // Use the stars preset
-        background: {
-          color: {
-            value: "#0000000"
-          },
-          image: "url('https://github.com/Darkskittlz/Bills-PWA/blob/master/public/dollarIMG.png?raw=true')",
-          position: "6% 2%",
-          repeat: "no-repeat",
-          size: "10%",
-          opacity: 1
-        },
-        interactivity: {
-          events: {
-            onClick: { enable: true, mode: "repulse" },
-            onHover: { enable: true, mode: "bubble" },
-            resize: true
-          }
-        },
-        particles: {
-          number: {
-            value: 160,
-            density: {
-              enable: true,
-              value_area: 800
-            }
-          },
-          color: {
-            value: "#ffffff"
-          },
-          opacity: {
-            value: { min: 0.1, max: 1 },
-            anim: { enable: true, speed: 1 }
-          },
-          size: {
-            value: { min: 1, max: 3 },
-            anim: { enable: true, speed: 5 }
-          },
-          move: {
-            enable: true,
-            speed: { min: 0.1, max: 1 }
-          }
-        }
-      });
+  render() {
+    let config = {
+      num: [7, 7],
+      rps: 0.1,
+      radius: [1, 40],
+      life: [1.5, 3],
+      v: [1, 1],
+      tha: [-40, 40],
+      alpha: [0.6, 0],
+      scale: [.1, 0.4],
+      position: "all",
+      color: ["random", "#ff0000"],
+      cross: "dead",
+      // emitter: "follow",
+      random: 15
     };
 
-    loadParticles(); // Call the async function when component is mounted
-  }, []);
+    if (Math.random() > 0.85) {
+      config = Object.assign(config, {
+        onParticleUpdate: (ctx, particle) => {
+          ctx.beginPath();
+          ctx.rect(
+            particle.p.x,
+            particle.p.y,
+            particle.radius * 2,
+            particle.radius * 2
+          );
+          ctx.fillStyle = particle.color;
+          ctx.fill();
+          ctx.closePath();
+        }
+      });
+    }
 
-  return <div id="tsparticles" style={{ position: "absolute", width: "100%", height: "100%" }}></div>;
+    return (
+      <div>
+        <ParticlesBg type="custom" config={config} bg={true} />
+      </div>
+    );
+  }
 }
 
