@@ -18,7 +18,7 @@ const Expenses = () => {
             <tr>
               <td>🏠</td>
               <td>Rent (Tristan)</td>
-              <td>$1450</td>
+              <td>$1495</td>
               <td>1st</td>
             </tr>
             <tr>
@@ -30,7 +30,7 @@ const Expenses = () => {
             <tr>
               <td>📶</td>
               <td>Internet</td>
-              <td>$70</td>
+              <td>$82</td>
               <td>4th</td>
             </tr>
             <tr>
@@ -42,7 +42,7 @@ const Expenses = () => {
             <tr>
               <td>📺</td>
               <td>HBO</td>
-              <td>$7.99</td>
+              <td>$17</td>
               <td>9th</td>
             </tr>
             <tr>
@@ -53,16 +53,22 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>📺</td>
+              <td>Prime Ad-Free</td>
+              <td>$3</td>
+              <td>10th</td>
+            </tr>
+            <tr>
+              <td>📺</td>
               <td>Google Storage (Alice)</td>
               <td>$10</td>
               <td>10th</td>
             </tr>
-            <tr>
-              <td>🍿</td>
-              <td>Netflix</td>
-              <td>$15.50</td>
-              <td>10th</td>
-            </tr>
+            {/* <tr> */}
+            {/*   <td>🍿</td> */}
+            {/*   <td>Netflix</td> */}
+            {/*   <td>$15.50</td> */}
+            {/*   <td>10th</td> */}
+            {/* </tr> */}
             <tr>
               <td>🕹️</td>
               <td>Nintendo </td>
@@ -73,6 +79,12 @@ const Expenses = () => {
               <td>✒️</td>
               <td>Inkdrop (Tristan)</td>
               <td>$5</td>
+              <td>12th</td>
+            </tr>
+            <tr>
+              <td>🍋</td>
+              <td>Lemonade Insurance</td>
+              <td>$32</td>
               <td>12th</td>
             </tr>
             <tr>
@@ -94,6 +106,12 @@ const Expenses = () => {
               <td>17th</td>
             </tr>
             <tr>
+              <td>💳</td>
+              <td>Capital One</td>
+              <td>$25</td>
+              <td>19th</td>
+            </tr>
+            <tr>
               <td>🍏</td>
               <td>Apple </td>
               <td>$1</td>
@@ -112,24 +130,18 @@ const Expenses = () => {
               <td>22nd</td>
             </tr>
             <tr>
-              <td>🌲</td>
-              <td>Amazon</td>
+              <td>📺</td>
+              <td>Amazon Prime</td>
               <td>$15</td>
               <td>25th</td>
-            </tr>
-            <tr>
-              <td>📺</td>
-              <td>Prime Video</td>
-              <td>$5</td>
-              <td>28th</td>
             </tr>
           </table>
           <table>
             <tr>
-              <th>💵 Checking Account for Bills 💵</th>
+              <th>💵 Total Bills 💵</th>
             </tr>
             <tr>
-              <td>$2,398</td>
+              <td>$2,654</td>
             </tr>
           </table>
         </TableContainer>
