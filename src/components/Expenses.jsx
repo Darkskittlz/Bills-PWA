@@ -34,6 +34,12 @@ const Expenses = () => {
               <td>4th</td>
             </tr>
             <tr>
+              <td>📺</td>
+              <td>Google Storage (Alice)</td>
+              <td>$20</td>
+              <td>5th</td>
+            </tr>
+            <tr>
               <td>💻</td>
               <td>Microsoft</td>
               <td>$2</td>
@@ -55,12 +61,6 @@ const Expenses = () => {
               <td>📺</td>
               <td>Prime Ad-Free</td>
               <td>$3</td>
-              <td>10th</td>
-            </tr>
-            <tr>
-              <td>📺</td>
-              <td>Google Storage (Alice)</td>
-              <td>$10</td>
               <td>10th</td>
             </tr>
             {/* <tr> */}
@@ -88,6 +88,12 @@ const Expenses = () => {
               <td>12th</td>
             </tr>
             <tr>
+              <td>🎞️</td>
+              <td>Capcut</td>
+              <td>$8</td>
+              <td>16th</td>
+            </tr>
+            <tr>
               <td>💳</td>
               <td>Geico</td>
               <td>$181</td>
@@ -107,7 +113,13 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>💳</td>
-              <td>Capital One</td>
+              <td>Capital One - REI (Tristan)</td>
+              <td>$29</td>
+              <td>17th</td>
+            </tr>
+            <tr>
+              <td>💳</td>
+              <td>Capital One (Alice)</td>
               <td>$25</td>
               <td>19th</td>
             </tr>
@@ -135,13 +147,21 @@ const Expenses = () => {
               <td>$15</td>
               <td>25th</td>
             </tr>
+            <tr>
+              <td>💳</td>
+              <td>Capital One - Quicksilver (Tristan)</td>
+              <td>$25</td>
+              <td>27th</td>
+            </tr>
           </table>
           <table>
             <tr>
+              <th>💵 Main Bills 💵</th>
               <th>💵 Total Bills 💵</th>
             </tr>
             <tr>
-              <td>$2,654</td>
+              <td>$2,210</td>
+              <td>$2,609</td>
             </tr>
           </table>
         </TableContainer>
