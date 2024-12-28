@@ -40,9 +40,15 @@ const Expenses = () => {
               <td>4th</td>
             </tr>
             <tr>
+              <td>💳</td>
+              <td>Quicksilver (Alice)</td>
+              <td>$25</td>
+              <td>4th</td>
+            </tr>
+            <tr>
               <td>📺</td>
               <td>Google Storage (Alice)</td>
-              <td>$20</td>
+              <td>$9.99</td>
               <td>5th</td>
             </tr>
             <tr>
@@ -82,16 +88,16 @@ const Expenses = () => {
               <td>11th</td>
             </tr>
             <tr>
-              <td>✒️</td>
-              <td>Inkdrop (Tristan)</td>
-              <td>$5</td>
-              <td>12th</td>
-            </tr>
-            <tr>
               <td>🍋</td>
               <td>Lemonade Insurance</td>
               <td>$32</td>
               <td>12th</td>
+            </tr>
+            <tr>
+              <td>💳</td>
+              <td>Discover (Alice) </td>
+              <td>$190 (January 2025)</td>
+              <td>14th</td>
             </tr>
             <tr>
               <td>🎞️</td>
@@ -103,12 +109,6 @@ const Expenses = () => {
               <td>💳</td>
               <td>Geico</td>
               <td>$181</td>
-              <td>17th</td>
-            </tr>
-            <tr>
-              <td>💳</td>
-              <td>Discover (Alice) </td>
-              <td>$95</td>
               <td>17th</td>
             </tr>
             <tr>
@@ -147,15 +147,27 @@ const Expenses = () => {
               <td>$15</td>
               <td>25th</td>
             </tr>
+            <tr>
+              <td>💳</td>
+              <td>Venture One (Alice)</td>
+              <td>$25</td>
+              <td>27th</td>
+            </tr>
+            <tr>
+              <td>💳</td>
+              <td>Quicksilver (Tristan)</td>
+              <td>$11</td>
+              <td>27th</td>
+            </tr>
           </table>
           <table>
             <tr>
-              <th>💵 Main Bills 💵</th>
+              <th>💵 Car + Insurance 💵</th>
               <th>💵 Total Bills 💵</th>
             </tr>
             <tr>
-              <td>$2,210</td>
-              <td>$2,609</td>
+              <td>$715</td>
+              <td>$2,653</td>
             </tr>
           </table>
         </TableContainer>

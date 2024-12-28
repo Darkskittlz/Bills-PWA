@@ -34,7 +34,7 @@ pnpm add vite-plugin-pwa -D
 🦄 Usage
 Add VitePWA plugin to vite.config.js / vite.config.ts and configure it:
 
-```
+
 // vite.config.js / vite.config.ts
 import { VitePWA } from 'vite-plugin-pwa'
 
@@ -43,7 +43,7 @@ export default {
     VitePWA()
   ]
 }
-```
+
 Read the 📖 documentation for a complete guide on how to configure and use this plugin.
 
 Check out the client type declarations client.d.ts for built-in frameworks support.
