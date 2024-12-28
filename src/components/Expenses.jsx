@@ -95,8 +95,8 @@ const Expenses = () => {
             </tr>
             <tr>
               <td>💳</td>
-              <td>Discover (Alice) </td>
-              <td>$190 (January 2025)</td>
+              <td>Discover Alice (Jan 2025)</td>
+              <td>$190</td>
               <td>14th</td>
             </tr>
             <tr>
