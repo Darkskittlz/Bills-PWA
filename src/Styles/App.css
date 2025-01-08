@@ -42,3 +42,8 @@
   margin-left: 5px;
 }
 
+.strike {
+  text-decoration: line-through;
+  color: green;
+}
+

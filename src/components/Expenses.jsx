@@ -33,10 +33,10 @@ const Expenses = () => {
               <td>$16</td>
               <td>2nd</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📶</td>
               <td>Internet</td>
-              <td>$82</td>
+              <td>$65</td>
               <td>4th</td>
             </tr>
             <tr>
@@ -57,7 +57,7 @@ const Expenses = () => {
               <td>$2</td>
               <td>8th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📺</td>
               <td>HBO</td>
               <td>$17</td>
@@ -69,7 +69,7 @@ const Expenses = () => {
               <td>$3</td>
               <td>10th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📺</td>
               <td>Prime Ad-Free</td>
               <td>$3</td>
@@ -105,7 +105,7 @@ const Expenses = () => {
               <td>$8</td>
               <td>16th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>💳</td>
               <td>Geico</td>
               <td>$181</td>
@@ -141,7 +141,7 @@ const Expenses = () => {
               <td>$5.99 </td>
               <td>22nd</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📺</td>
               <td>Amazon Prime</td>
               <td>$15</td>
@@ -162,12 +162,19 @@ const Expenses = () => {
           </table>
           <table>
             <tr>
-              <th>💵 Car + Insurance 💵</th>
-              <th>💵 Total Bills 💵</th>
+              <th>Car + Insurance</th>
+              <th>Rent</th>
+              <th>Total Bills</th>
             </tr>
+            <tr className="align-start">
+              <td>💵 $715💵</td>
+              <td>💵 $1495💵</td>
+              <td>💵 $948💵</td>
+            </tr>
+          </table>
+          <table>
             <tr>
-              <td>$715</td>
-              <td>$2,653</td>
+              <th><span className="strike"> Strike Through</span> = Paid for January</th>
             </tr>
           </table>
         </TableContainer>
