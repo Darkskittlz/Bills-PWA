@@ -15,19 +15,19 @@ const Expenses = () => {
               <th>Amount</th>
               <th>Due</th>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>🏠</td>
               <td>Rent (Tristan)</td>
               <td>$1495</td>
               <td>1st</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📱</td>
               <td>Google Phone (Alice)</td>
               <td>$40</td>
               <td>2nd</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📺</td>
               <td>YouTube</td>
               <td>$16</td>
@@ -39,19 +39,19 @@ const Expenses = () => {
               <td>$65</td>
               <td>4th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>💳</td>
               <td>Quicksilver (Alice)</td>
               <td>$25</td>
               <td>4th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📺</td>
               <td>Google Storage (Alice)</td>
               <td>$9.99</td>
               <td>5th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>💻</td>
               <td>Microsoft</td>
               <td>$2</td>
@@ -63,7 +63,7 @@ const Expenses = () => {
               <td>$17</td>
               <td>9th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>📺</td>
               <td>Discord Nitro (Alice)</td>
               <td>$3</td>
@@ -81,25 +81,25 @@ const Expenses = () => {
             {/*   <td>$15.50</td> */}
             {/*   <td>10th</td> */}
             {/* </tr> */}
-            <tr>
-              <td>🕹️</td>
+            <tr class="strike">
+              <td>🕹️ </td>
               <td>Nintendo </td>
               <td>$4</td>
               <td>11th</td>
             </tr>
-            <tr>
-              <td>🍋</td>
+            <tr class="strike">
+              <td>🍋 </td>
               <td>Lemonade Insurance</td>
               <td>$32</td>
               <td>12th</td>
             </tr>
-            <tr>
-              <td>💳</td>
+            <tr class="strike">
+              <td>💳 </td>
               <td>Discover Alice (Jan 2025)</td>
               <td>$190</td>
               <td>14th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>🎞️</td>
               <td>Capcut</td>
               <td>$8</td>
@@ -111,13 +111,13 @@ const Expenses = () => {
               <td>$181</td>
               <td>17th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>💳</td>
               <td>Kia Financing</td>
               <td>$534</td>
               <td>17th</td>
             </tr>
-            <tr>
+            <tr class="strike">
               <td>💳</td>
               <td>Capital One - REI (Tristan)</td>
               <td>$29</td>
@@ -167,9 +167,9 @@ const Expenses = () => {
               <th>Total Bills</th>
             </tr>
             <tr className="align-start">
-              <td>💵 $715💵</td>
-              <td>💵 $1495💵</td>
-              <td>💵 $948💵</td>
+              <td>$715</td>
+              <td>$1495</td>
+              <td>$948</td>
             </tr>
           </table>
           <table>
