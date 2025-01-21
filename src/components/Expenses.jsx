@@ -22,12 +22,6 @@ const Expenses = () => {
               <td>1st</td>
             </tr>
             <tr class="strike">
-              <td>📱</td>
-              <td>Google Phone (Alice)</td>
-              <td>$40</td>
-              <td>2nd</td>
-            </tr>
-            <tr class="strike">
               <td>📺</td>
               <td>YouTube</td>
               <td>$16</td>
@@ -135,17 +129,17 @@ const Expenses = () => {
               <td>$12</td>
               <td>22nd</td>
             </tr>
-            <tr>
-              <td>📺</td>
-              <td>Twitch (Alice) </td>
-              <td>$5.99 </td>
-              <td>22nd</td>
-            </tr>
             <tr class="strike">
               <td>📺</td>
               <td>Amazon Prime</td>
               <td>$15</td>
               <td>25th</td>
+            </tr>
+            <tr>
+              <td>📱</td>
+              <td>Google Phone (Alice)</td>
+              <td>$40</td>
+              <td>26th</td>
             </tr>
             <tr>
               <td>💳</td>
@@ -156,7 +150,7 @@ const Expenses = () => {
             <tr>
               <td>💳</td>
               <td>Quicksilver (Tristan)</td>
-              <td>$11</td>
+              <td>$25</td>
               <td>27th</td>
             </tr>
           </table>
