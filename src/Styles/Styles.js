@@ -21,10 +21,11 @@ export const HomeContainer = styled.div`
 
     @media screen and (max-width: 450px) {
         margin-top: 0%;
-        height: 166vh;
+        height: 130vh;
+        padding-bottom: 30vh;
 
         h1 {
-            margin-top: 20%;
+            margin-top: 0%;
         }
     }
 `
@@ -35,7 +36,7 @@ export const ExpensesContainer = styled.div`
     flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    
+
     h2 {
         border: 1px solid white;
         border-radius: 5px;
@@ -44,8 +45,8 @@ export const ExpensesContainer = styled.div`
     }
 
     @media screen and (max-width: 960px){
-      margin-top: 1px;
-    } 
+      margin-top: 10vh;
+    }
 `
 
 export const TableContainer = styled.div`
