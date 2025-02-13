@@ -45,7 +45,7 @@ export const ExpensesContainer = styled.div`
     }
 
     @media screen and (max-width: 960px){
-      margin-top: 10vh;
+      margin-top: 25vh;
     }
 `
 
