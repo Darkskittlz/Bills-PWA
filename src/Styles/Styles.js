@@ -21,7 +21,7 @@ export const HomeContainer = styled.div`
 
     @media screen and (max-width: 450px) {
         margin-top: 0%;
-        height: 100vh;
+        height: 166vh;
 
         h1 {
             margin-top: 20%;
@@ -44,7 +44,7 @@ export const ExpensesContainer = styled.div`
     }
 
     @media screen and (max-width: 960px){
-      margin-top: 200px;
+      margin-top: 1px;
     } 
 `
 
