@@ -64,6 +64,13 @@ const Expenses = () => {
               <td>$25</td>
               <td>4th</td>
             </tr>
+            <tr className={doneRows.includes(3) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(3)} sx={{ color: "white" }} size="small" /></td>
+              <td>💳</td>
+              <td>Visible Phone (Alice)</td>
+              <td>$25</td>
+              <td>4th</td>
+            </tr>
             <tr className={doneRows.includes(4) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(4)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
@@ -92,6 +99,20 @@ const Expenses = () => {
               <td>$17</td>
               <td>9th</td>
             </tr>
+            <tr className={doneRows.includes(7) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(7)} sx={{ color: "white" }} size="small" /></td>
+              <td>📺</td>
+              <td>Netflix</td>
+              <td>$16</td>
+              <td>9th</td>
+            </tr>
+            <tr className={doneRows.includes(7) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(7)} sx={{ color: "white" }} size="small" /></td>
+              <td>💜</td>
+              <td>Discord Nitro</td>
+              <td>$3</td>
+              <td>9th</td>
+            </tr>
             <tr className={doneRows.includes(8) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(8)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
@@ -118,6 +139,13 @@ const Expenses = () => {
               <td>🍋 </td>
               <td>Lemonade Insurance</td>
               <td>$32</td>
+              <td>12th</td>
+            </tr>
+            <tr className={doneRows.includes(10) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(10)} sx={{ color: "white" }} size="small" /></td>
+              <td>🖼️ </td>
+              <td>Canva</td>
+              <td>$15</td>
               <td>12th</td>
             </tr>
             <tr className={doneRows.includes(11) ? 'strike' : ''}>
