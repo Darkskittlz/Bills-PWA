@@ -40,7 +40,7 @@ const Expenses = () => {
               <td><Checkbox onClick={() => handleClick(0)} sx={{ color: "white" }} size="small" /></td>
               <td>🏠</td>
               <td>Rent (Tristan)</td>
-              <td>$1495</td>
+              <td>$1898</td>
               <td>1st</td>
             </tr>
             <tr className={doneRows.includes(1) ? 'strike' : ''}>
@@ -106,13 +106,6 @@ const Expenses = () => {
               <td>$16</td>
               <td>9th</td>
             </tr>
-            <tr className={doneRows.includes(10) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(10)} sx={{ color: "white" }} size="small" /></td>
-              <td>💜</td>
-              <td>Discord Nitro</td>
-              <td>$3</td>
-              <td>9th</td>
-            </tr>
             <tr className={doneRows.includes(11) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(11)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
@@ -120,13 +113,6 @@ const Expenses = () => {
               <td>$3</td>
               <td>10th</td>
             </tr>
-            {/* <tr className={doneRows.includes(0) ? 'strike' : ''}>
-<td><Checkbox onClick={() => handleClick(0)}sx={{color: "white"}}/></td> */}
-            {/*   <td>🍿</td> */}
-            {/*   <td>Netflix</td> */}
-            {/*   <td>$15.50</td> */}
-            {/*   <td>10th</td> */}
-            {/* </tr> */}
             <tr className={doneRows.includes(12) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(12)} sx={{ color: "white" }} size="small" /></td>
               <td>🕹️ </td>
@@ -140,20 +126,6 @@ const Expenses = () => {
               <td>Lemonade Insurance</td>
               <td>$32</td>
               <td>12th</td>
-            </tr>
-            <tr className={doneRows.includes(14) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(14)} sx={{ color: "white" }} size="small" /></td>
-              <td>🖼️ </td>
-              <td>Canva</td>
-              <td>$15</td>
-              <td>12th</td>
-            </tr>
-            <tr className={doneRows.includes(15) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(15)} sx={{ color: "white" }} size="small" /></td>
-              <td>🎞️</td>
-              <td>Capcut</td>
-              <td>$8</td>
-              <td>16th</td>
             </tr>
             <tr className={doneRows.includes(16) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(16)} sx={{ color: "white" }} size="small" /></td>
@@ -169,19 +141,12 @@ const Expenses = () => {
               <td>$534</td>
               <td>17th</td>
             </tr>
-            {/* <tr className={doneRows.includes(0) ? 'strike' : ''}>
-<td><Checkbox onClick={() => handleClick(0)}sx={{color: "white"}}/></td> */}
-            {/*   <td>💳</td> */}
-            {/*   <td>Capital One - REI (Tristan)</td> */}
-            {/*   <td>$29</td> */}
-            {/*   <td>17th</td> */}
-            {/* </tr> */}
-            <tr className={doneRows.includes(18) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(18)} sx={{ color: "white" }} size="small" /></td>
-              <td>🍏</td>
-              <td>Apple </td>
-              <td>$1</td>
-              <td>19th</td>
+            <tr className={doneRows.includes(0) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(0)} sx={{ color: "white" }} /></td>
+              <td>💳</td>
+              <td>REI Card (Tristan)</td>
+              <td>$29</td>
+              <td>17th</td>
             </tr>
             <tr className={doneRows.includes(19) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(19)} sx={{ color: "white" }} size="small" /></td>
@@ -214,14 +179,16 @@ const Expenses = () => {
           </table>
           <table>
             <tr>
-              <th>Car + Insurance</th>
+              <th>Kia/Geico</th>
               <th>Rent</th>
+              <th>Subs</th>
               <th>Total Bills</th>
             </tr>
             <tr className="align-start">
               <td>$715</td>
-              <td>$1495</td>
-              <td>$1007</td>
+              <td>$1898</td>
+              <td>$353</td>
+              <td>$2966</td>
             </tr>
           </table>
           <table>
