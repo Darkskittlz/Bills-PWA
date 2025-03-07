@@ -193,6 +193,14 @@ const Expenses = () => {
           </table>
           <table>
             <tr>
+              <th>UwU Crew OF Management</th>
+            </tr>
+            <tr>
+              <td>$5000 - 40% = $3000</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
               <th><span className="strike"> Strike Through</span> = Paid</th>
             </tr>
           </table>
