@@ -43,20 +43,6 @@ const Expenses = () => {
               <td>$1898</td>
               <td>1st</td>
             </tr>
-            <tr className={doneRows.includes(1) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(1)} sx={{ color: "white" }} size="small" /></td>
-              <td>📺</td>
-              <td>YouTube</td>
-              <td>$16</td>
-              <td>2nd</td>
-            </tr>
-            <tr className={doneRows.includes(2) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(2)} sx={{ color: "white" }} size="small" /></td>
-              <td>📶</td>
-              <td>Internet</td>
-              <td>$65</td>
-              <td>4th</td>
-            </tr>
             <tr className={doneRows.includes(3) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(3)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
@@ -106,6 +92,13 @@ const Expenses = () => {
               <td>$106</td>
               <td>8th</td>
             </tr>
+            <tr className={doneRows.includes(2) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(2)} sx={{ color: "white" }} size="small" /></td>
+              <td>📶</td>
+              <td>Internet</td>
+              <td>$73</td>
+              <td>9th</td>
+            </tr>
             <tr className={doneRows.includes(9) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(9)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
@@ -147,6 +140,13 @@ const Expenses = () => {
               <td>REI Card (Tristan)</td>
               <td>$90</td>
               <td>17th</td>
+            </tr>
+            <tr className={doneRows.includes(1) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(1)} sx={{ color: "white" }} size="small" /></td>
+              <td>📺</td>
+              <td>YouTube</td>
+              <td>$16</td>
+              <td>18th</td>
             </tr>
             <tr className={doneRows.includes(19) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(19)} sx={{ color: "white" }} size="small" /></td>
