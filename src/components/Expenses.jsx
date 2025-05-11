@@ -177,14 +177,14 @@ const Expenses = () => {
               <td>27th</td>
             </tr>
             <tr className={doneRows.includes(23) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(22)} sx={{ color: "white" }} size="small" /></td>
+              <td><Checkbox onClick={() => handleClick(23)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
               <td style={{ fontSize: '14px' }}>Truist Debt (3x)</td>
               <td>$243</td>
               <td>28th</td>
             </tr>
             <tr className={doneRows.includes(24) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(22)} sx={{ color: "white" }} size="small" /></td>
+              <td><Checkbox onClick={() => handleClick(24)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
               <td style={{ fontSize: '13px' }}>Mariposa Mgmt</td>
               <td>40%</td>
