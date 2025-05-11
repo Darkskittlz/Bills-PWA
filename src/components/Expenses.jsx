@@ -183,6 +183,13 @@ const Expenses = () => {
               <td>$243</td>
               <td>28th</td>
             </tr>
+            <tr className={doneRows.includes(22) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(22)} sx={{ color: "white" }} size="small" /></td>
+              <td>💳</td>
+              <td>Mariposa Management</td>
+              <td>40%</td>
+              <td>Bi-Weekly</td>
+            </tr>
           </table>
           <table>
             <tr>

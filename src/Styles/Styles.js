@@ -60,7 +60,7 @@ export const TableContainer = styled.div`
     table {
         border: 2px solid white;
         padding: 10px;
-        width: 410px;
+        width: 500px;
     }
      
     th {
