@@ -176,6 +176,13 @@ const Expenses = () => {
               <td>$25</td>
               <td>27th</td>
             </tr>
+            <tr className={doneRows.includes(22) ? 'strike' : ''}>
+              <td><Checkbox onClick={() => handleClick(22)} sx={{ color: "white" }} size="small" /></td>
+              <td>💳</td>
+              <td>Truist Debt (Tristan: 3x)</td>
+              <td>$243</td>
+              <td>28th</td>
+            </tr>
           </table>
           <table>
             <tr>
@@ -187,8 +194,8 @@ const Expenses = () => {
             <tr className="align-start">
               <td>$640</td>
               <td>$1898</td>
-              <td>$365</td>
-              <td>$2903</td>
+              <td>$608</td>
+              <td>$3146</td>
             </tr>
           </table>
           <table>
