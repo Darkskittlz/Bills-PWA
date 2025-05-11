@@ -53,14 +53,14 @@ const Expenses = () => {
             <tr className={doneRows.includes(4) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(4)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
-              <td>Visible Phone (Alice)</td>
+              <td style={{ fontSize: '13px' }}>Visible Phone (Alice)</td>
               <td>$25</td>
               <td>4th</td>
             </tr>
             <tr className={doneRows.includes(5) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(5)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
-              <td>Google Storage (Alice)</td>
+              <td style={{ fontSize: '13px' }}>Google Storage (Alice)</td>
               <td>$9.99</td>
               <td>5th</td>
             </tr>
@@ -158,7 +158,7 @@ const Expenses = () => {
             <tr className={doneRows.includes(20) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(20)} sx={{ color: "white" }} size="small" /></td>
               <td>📱</td>
-              <td>Google Phone (Alice)</td>
+              <td style={{ fontSize: '14px' }}>Google Phone (Alice)</td>
               <td>$40</td>
               <td>26th</td>
             </tr>
