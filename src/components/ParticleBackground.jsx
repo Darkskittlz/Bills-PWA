@@ -13,17 +13,17 @@ export class ParticleBackground extends Component {
     let config = {
       num: [7, 7],
       rps: 0.1,
-      radius: [1, 40],
-      life: [1.5, 3],
+      radius: [1, 60],
+      life: [1.9, 3],
       v: [1, 1],
       tha: [-40, 40],
-      alpha: [0.6, 0],
-      scale: [.1, 0.4],
+      alpha: [0.8, 0],
+      scale: [.1, 0.2],
       position: "all",
       color: ["random", "#ff0000"],
       cross: "dead",
       // emitter: "follow",
-      random: 15
+      random: 1
     };
 
     if (Math.random() > 0.85) {
