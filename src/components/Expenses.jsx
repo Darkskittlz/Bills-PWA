@@ -96,7 +96,7 @@ const Expenses = () => {
               <td><Checkbox onClick={() => handleClick(2)} sx={{ color: "white" }} size="small" /></td>
               <td>📶</td>
               <td>Internet</td>
-              <td>$73</td>
+              <td>$75</td>
               <td>9th</td>
             </tr>
             <tr className={doneRows.includes(9) ? 'strike' : ''}>
@@ -176,20 +176,6 @@ const Expenses = () => {
               <td>$25</td>
               <td>27th</td>
             </tr>
-            <tr className={doneRows.includes(23) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(23)} sx={{ color: "white" }} size="small" /></td>
-              <td>💳</td>
-              <td style={{ fontSize: '14px' }}>Truist Debt (3x)</td>
-              <td>$243</td>
-              <td>28th</td>
-            </tr>
-            <tr className={doneRows.includes(24) ? 'strike' : ''}>
-              <td><Checkbox onClick={() => handleClick(24)} sx={{ color: "white" }} size="small" /></td>
-              <td>💳</td>
-              <td style={{ fontSize: '13px' }}>Mariposa Mgmt</td>
-              <td>40%</td>
-              <td>Bi-Weekly</td>
-            </tr>
           </table>
           <table>
             <tr>
@@ -203,14 +189,6 @@ const Expenses = () => {
               <td>$1898</td>
               <td>$608</td>
               <td>$3146</td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <th>OF Management</th>
-            </tr>
-            <tr>
-              <td>$5000 - 40% = $3000</td>
             </tr>
           </table>
           <table>
