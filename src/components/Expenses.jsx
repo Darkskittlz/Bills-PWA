@@ -43,35 +43,35 @@ const Expenses = () => {
               <td>$1898</td>
               <td>1st</td>
             </tr>
-            <tr className={doneRows.includes(3) ? 'strike' : ''}>
+            <tr className={doneRows.includes(1) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(3)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
               <td>Quicksilver (Alice)</td>
               <td>$25</td>
               <td>4th</td>
             </tr>
-            <tr className={doneRows.includes(4) ? 'strike' : ''}>
+            <tr className={doneRows.includes(2) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(4)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
               <td style={{ fontSize: '13px' }}>Visible Phone (Alice)</td>
               <td>$25</td>
               <td>4th</td>
             </tr>
-            <tr className={doneRows.includes(5) ? 'strike' : ''}>
+            <tr className={doneRows.includes(3) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(5)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
               <td style={{ fontSize: '13px' }}>Google Storage (Alice)</td>
               <td>$9.99</td>
               <td>5th</td>
             </tr>
-            <tr className={doneRows.includes(6) ? 'strike' : ''}>
+            <tr className={doneRows.includes(4) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(6)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
               <td>Amazon Prime</td>
               <td>$7</td>
               <td>7th</td>
             </tr>
-            <tr className={doneRows.includes(7) ? 'strike' : ''}>
+            <tr className={doneRows.includes(5) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(7)} sx={{ color: "white" }} size="small" /></td>
               <td>💻</td>
               <td>Microsoft</td>
@@ -85,35 +85,35 @@ const Expenses = () => {
             {/*   <td>$17</td> */}
             {/*   <td>9th</td> */}
             {/* </tr> */}
-            <tr className={doneRows.includes(16) ? 'strike' : ''}>
+            <tr className={doneRows.includes(6) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(16)} sx={{ color: "white" }} size="small" /></td>
               <td>🦎</td>
               <td>Geico</td>
               <td>$106</td>
               <td>8th</td>
             </tr>
-            <tr className={doneRows.includes(2) ? 'strike' : ''}>
+            <tr className={doneRows.includes(7) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(2)} sx={{ color: "white" }} size="small" /></td>
               <td>📶</td>
               <td>Internet</td>
               <td>$75</td>
               <td>9th</td>
             </tr>
-            <tr className={doneRows.includes(9) ? 'strike' : ''}>
+            <tr className={doneRows.includes(8) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(9)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
               <td>Netflix</td>
               <td>$16</td>
               <td>9th</td>
             </tr>
-            <tr className={doneRows.includes(11) ? 'strike' : ''}>
+            <tr className={doneRows.includes(9) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(11)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
               <td>Prime Ad-Free</td>
               <td>$3</td>
               <td>10th</td>
             </tr>
-            <tr className={doneRows.includes(12) ? 'strike' : ''}>
+            <tr className={doneRows.includes(10) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(12)} sx={{ color: "white" }} size="small" /></td>
               <td>🕹️ </td>
               <td>Nintendo </td>
@@ -127,49 +127,49 @@ const Expenses = () => {
             {/*   <td>$32</td> */}
             {/*   <td>12th</td> */}
             {/* </tr> */}
-            <tr className={doneRows.includes(17) ? 'strike' : ''}>
+            <tr className={doneRows.includes(11) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(17)} sx={{ color: "white" }} size="small" /></td>
               <td>🚙</td>
               <td>Kia Financing</td>
               <td>$534</td>
               <td>17th</td>
             </tr>
-            <tr className={doneRows.includes(0) ? 'strike' : ''}>
+            <tr className={doneRows.includes(12) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(0)} sx={{ color: "white" }} /></td>
               <td>💳</td>
               <td>REI Card (Tristan)</td>
               <td>$90</td>
               <td>17th</td>
             </tr>
-            <tr className={doneRows.includes(1) ? 'strike' : ''}>
+            <tr className={doneRows.includes(13) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(1)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
               <td>YouTube</td>
               <td>$16</td>
               <td>18th</td>
             </tr>
-            <tr className={doneRows.includes(19) ? 'strike' : ''}>
+            <tr className={doneRows.includes(14) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(19)} sx={{ color: "white" }} size="small" /></td>
               <td>📺</td>
               <td>Crunchyroll </td>
               <td>$12</td>
               <td>22nd</td>
             </tr>
-            <tr className={doneRows.includes(20) ? 'strike' : ''}>
+            <tr className={doneRows.includes(15) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(20)} sx={{ color: "white" }} size="small" /></td>
               <td>📱</td>
               <td style={{ fontSize: '14px' }}>Google Phone (Alice)</td>
               <td>$40</td>
               <td>26th</td>
             </tr>
-            <tr className={doneRows.includes(21) ? 'strike' : ''}>
+            <tr className={doneRows.includes(16) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(21)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
               <td>Venture One (Alice)</td>
               <td>$25</td>
               <td>27th</td>
             </tr>
-            <tr className={doneRows.includes(22) ? 'strike' : ''}>
+            <tr className={doneRows.includes(17) ? 'strike' : ''}>
               <td><Checkbox onClick={() => handleClick(22)} sx={{ color: "white" }} size="small" /></td>
               <td>💳</td>
               <td style={{ fontSize: '14px' }}>Quicksilver (Tristan)</td>
